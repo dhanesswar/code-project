@@ -14,8 +14,9 @@ printf("Enter a string:");
 scanf("%s", str);
 printf("\n--Output---\n");
 printf("Integer:%d\n",num);
-printf("Float:%2\n",fnum);
+printf("Float:%.2f\n",fnum);
 printf("Character:%c\n",ch);
 printf("String:%s\n",str);
 return 0;
 }
+
